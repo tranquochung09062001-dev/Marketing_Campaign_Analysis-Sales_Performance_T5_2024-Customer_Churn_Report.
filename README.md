@@ -1,4 +1,5 @@
-![Marketing Campaign Performance Dashboard](./images/Marketing_Dashboard_Cover.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/bb4caf20-672e-420b-82cf-cc6616a5373c" />
+
 
 # 📊 Marketing Campaign Analysis, Sales Performance (T5/2024) & Customer Churn Report | Facebook Ads + Fashion E-commerce | Power BI
 
@@ -138,7 +139,8 @@ The model follows a **snowflake schema**:
 - `dim_danh_sach_san_pham` (1 → \*) connects to the bridge table `fact_mkt_camp_by_sku_...` → links ad spend by SKU back to the product.
 - `fact_mkt_camp_by_sku_cost` has a many-to-many relationship with `dim_mkt_camp_cost` and the bridge table, used to aggregate ad spend at the SKU-by-day grain.
 
-![Data Model](./images/Model_View.png)
+<img width="1198" height="738" alt="image" src="https://github.com/user-attachments/assets/a34b3d74-52c6-4273-9ee2-2dab7d43c3d2" />
+
 
 ---
 
@@ -146,25 +148,29 @@ The model follows a **snowflake schema**:
 
 **1️⃣ Empathize**
 
-![Step 1 - Empathize](./images/marketing_design_thinking_01_empathize.png)
+<img width="1000" height="560" alt="image" src="https://github.com/user-attachments/assets/0f29f31b-934b-46f8-a8ab-da9b12e32c31" />
+
 
 Identified the primary stakeholder (**Head of Performance Marketing**), someone who needs to quickly assess ad budget efficiency across multiple campaigns and products at once, but doesn't have time to manually reconcile ad-spend files against order files.
 
 **2️⃣ Define**
 
-![Step 2 - Define](./images/marketing_design_thinking_02_define.png)
+<img width="1000" height="560" alt="image" src="https://github.com/user-attachments/assets/5f2c52b0-7b79-46c1-a95e-3c249f1fdaea" />
+
 
 Problem statement: *"The Marketing Lead needs a unified dashboard that merges ad and order data to quickly identify which campaigns/products are actually profitable (not just ROAS, but ROI too), enabling smarter budget reallocation."*
 
 **3️⃣ Ideate**
 
-![Step 3 - Ideate](./images/marketing_design_thinking_03_ideate.png)
+<img width="1000" height="560" alt="image" src="https://github.com/user-attachments/assets/49d961b1-2186-4bf7-a527-01d98de70857" />
+
 
 Mapped out the decision points that needed support: comparing ROAS/ROI by product category, spotting campaigns with abnormal CPA, evaluating revenue contribution by customer tier, and understanding demand by size/material to optimize inventory.
 
 **4️⃣ Prototype & Review**
 
-![Step 4 - Prototype and Review](./images/marketing_design_thinking_04_prototype.png)
+<img width="1000" height="560" alt="image" src="https://github.com/user-attachments/assets/4c52b2d8-d8e6-42b2-91e9-b5963c096f38" />
+
 
 Structured the report into **3 pages** (Overview → Campaign → Product), moving from the big picture of ad performance down to campaign-level and product-level detail.
 
@@ -191,7 +197,8 @@ Structured the report into **3 pages** (Overview → Campaign → Product), movi
 
 ### 1️⃣ Overview
 
-![Overview](./images/Overview.jpg)
+<img width="1360" height="746" alt="image" src="https://github.com/user-attachments/assets/2868f81c-2054-42eb-b017-2a7fe2ea04e8" />
+
 
 📌 **Insight 1 — High ROAS does not mean positive ROI, and this paradox needs attention:**
 - **Observation:** The system overall reaches a **ROAS of 7.67** (ad revenue is 7.67x ad spend) on **Total Spend of 394.1M₫** and **Total Impression of 24M**, yet **ROI is actually negative at -21.7%**. This shows that although ad-driven revenue is many times higher than ad spend, after subtracting cost of goods, discounts, and other operating costs, the system's actual profit is **negative**.
@@ -203,7 +210,8 @@ Structured the report into **3 pages** (Overview → Campaign → Product), movi
 
 ### 2️⃣ Campaign
 
-![Campaign](./images/Campaign.jpg)
+<img width="1364" height="749" alt="image" src="https://github.com/user-attachments/assets/01f4142e-cf73-4a48-b67c-d6b18e3b325c" />
+
 
 📌 **Insight 3 — Low CTR may be the underlying cause of high CPA:**
 - **Observation:** Overall CTR is only **0.17%**, while CPA reaches **201.3K₫**. Comparing campaigns in the table, some campaigns (e.g. the "Gina set" group) show CPA ranging widely — from about **5.1K₫ to over 20.8K₫** — indicating inconsistent targeting/creative quality across campaigns.
@@ -211,7 +219,8 @@ Structured the report into **3 pages** (Overview → Campaign → Product), movi
 
 ### 3️⃣ Product
 
-![Product](./images/Product.jpg)
+<img width="1357" height="745" alt="image" src="https://github.com/user-attachments/assets/d3bd684e-9ef2-4702-a7f9-5de9302169fe" />
+
 
 📌 **Insight 4 — Demand is heavily concentrated in sizes M and S, with almost no demand for XL:**
 - **Observation:** The **"Số lượng by Size" (Quantity by Size)** chart shows sizes **M (1,285)** and **S (1,097)** accounting for the majority of units sold, while **L (655)** and **XS (414)** are noticeably lower, and **XL has only 2 units sold**.
