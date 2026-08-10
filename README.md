@@ -43,10 +43,14 @@ This project analyzes **marketing campaign performance (Facebook Ads)** alongsid
 
 ### 👤 Who is this project for?
 
-✔️ Performance Marketing / Ads teams
+✔️ Performance Marketing / Ads teams 
+
 ✔️ Data analysts & business analysts
+
 ✔️ Product / Merchandising teams (size, material, and category planning)
+
 ✔️ Leadership needing real-time visibility into ad budget efficiency
+
 
 ---
 
