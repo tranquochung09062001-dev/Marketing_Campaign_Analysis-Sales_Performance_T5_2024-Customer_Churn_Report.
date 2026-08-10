@@ -29,11 +29,16 @@ _Analyzing advertising campaign performance (ROAS, ROI, CPA, CTR) alongside sale
 
 This project analyzes **marketing campaign performance (Facebook Ads)** alongside **fashion retail sales data**, building an interactive Power BI dashboard with **3 pages**: Overview, Campaign, Product. Objectives:
 
-✔️ Track the core performance metrics: **ROAS, ROI, CPA, CTR, CPM, Total Spend, Total Impression**.
+✔️ Track the core performance metrics: **ROAS, ROI, CPA, CTR, CPM, Total Spend, Total Impression**. 
+
 ✔️ Compare ad efficiency across product categories (Dresses, Skirts, Outfit Sets...) to spot budget "stars" and budget "drains".
+
 ✔️ Analyze ad-driven revenue by customer tier (Diamond/Gold/Platinum/Silver VIP, Membership).
+
 ✔️ Track performance for individual campaigns (CPA, CTR, Impressions, Engagement, Comments, Inbox) by day.
+
 ✔️ Analyze demand by size and material to support production/inventory planning.
+
 ✔️ Provide interactive filters (Category, Date, Campaign Name) to explore the data from multiple angles.
 
 ### 👤 Who is this project for?
